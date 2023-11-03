@@ -1,0 +1,28 @@
+Table1-->accounts
+
+Fields:
+
+account_no int,pk,auto
+account_name text
+account_pass   text
+account_email  text
+account_mob   text
+account_type   text
+account_bal     float
+account_opendate  text
+
+
+
+Table2-->txn
+
+Fields
+
+txn_account_no    	int
+txn_amt                 float
+txn_update_bal          float
+txn_date                text
+txn_type                text
+
+
+
+
